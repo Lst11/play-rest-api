@@ -1,0 +1,11 @@
+@(items: Seq[String])
+
+<h1>Sample Tasks</h1>
+<ul>
+    @*********************
+    * Here is the list of items *
+    *********************@
+@for(item <- items){
+    <li>@item</li>
+}
+</ul>
